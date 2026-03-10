@@ -1,0 +1,61 @@
+# Build directories
+build/
+Build/
+build_*/
+
+# IDE files
+*.ioc
+*.project
+*.cproject
+*.settings/
+
+# Object files
+*.o
+*.obj
+*.d
+
+# Libraries
+*.lib
+*.a
+*.so
+*.dylib
+
+# Executables
+*.exe
+*.hex
+*.bin
+*.axf
+
+# Debug files
+*.map
+*.lst
+*.dep
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# STM32CubeIDE specific
+Core/Inc/generated/
+Core/Src/generated/
+
+# MDK-ARM specific
+*.dep
+*.d
+*.opt
+*.plg
+*.uvoptx
+*.uvprojx
+
+# System files
+.DS_Store
+Thumbs.db
